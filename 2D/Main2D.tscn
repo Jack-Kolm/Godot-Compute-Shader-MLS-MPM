@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dg6y0br2yuqwi"]
+
+[ext_resource type="Script" uid="uid://dqd1jxisomoq" path="res://2D/main.gd" id="1_o658c"]
+
+[node name="Main2d" type="Node2D"]
+script = ExtResource("1_o658c")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(45, 42)
+scale = Vector2(-7.77386, -0.278688)
+zoom = Vector2(4, 4)

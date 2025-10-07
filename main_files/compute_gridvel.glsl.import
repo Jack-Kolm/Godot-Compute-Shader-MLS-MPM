@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bpfr5nojyl7hn"
+path="res://.godot/imported/compute_gridvel.glsl-f0fcadb8faa33262b26756d0af7596d0.res"
+
+[deps]
+
+source_file="res://main_files/compute_gridvel.glsl"
+dest_files=["res://.godot/imported/compute_gridvel.glsl-f0fcadb8faa33262b26756d0af7596d0.res"]
+
+[params]
+

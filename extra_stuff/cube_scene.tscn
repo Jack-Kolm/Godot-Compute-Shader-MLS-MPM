@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bypscddwjdg8w"]
+
+[ext_resource type="PackedScene" uid="uid://dcv3te4hoti8h" path="res://extra_stuff/cube.glb" id="1_w7ooi"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ke2wd"]
+radius = 0.3
+
+[node name="CubeScene" type="RigidBody3D"]
+mass = 0.001
+gravity_scale = 0.0
+
+[node name="cube" parent="." instance=ExtResource("1_w7ooi")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_ke2wd")

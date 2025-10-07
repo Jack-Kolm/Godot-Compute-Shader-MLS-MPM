@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://conn4yopukbmc"]
+
+[ext_resource type="Shader" uid="uid://g0ge2af05cjv" path="res://main_files/waterbox.gdshader" id="1_d2yf2"]
+[ext_resource type="Script" uid="uid://3hyoweo6w6tp" path="res://extra_stuff/mesh_instance_3d.gd" id="2_mpm0d"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u64xo"]
+render_priority = 0
+shader = ExtResource("1_d2yf2")
+shader_parameter/tex_size = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_j8wvp"]
+material = SubResource("ShaderMaterial_u64xo")
+subdivide_width = 1024
+subdivide_height = 1024
+subdivide_depth = 1024
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d2yf2"]
+render_priority = 0
+shader = ExtResource("1_d2yf2")
+shader_parameter/tex_size = 0
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+mesh = SubResource("BoxMesh_j8wvp")
+surface_material_override/0 = SubResource("ShaderMaterial_d2yf2")
+script = ExtResource("2_mpm0d")
+min_radius = 0.01
+max_radius = 0.02

@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bhie8fc1p7pdl"
+path="res://.godot/imported/compute_zerogrid.glsl-c2a4568bf809f772baffc230d206c740.res"
+
+[deps]
+
+source_file="res://main_files/compute_zerogrid.glsl"
+dest_files=["res://.godot/imported/compute_zerogrid.glsl-c2a4568bf809f772baffc230d206c740.res"]
+
+[params]
+

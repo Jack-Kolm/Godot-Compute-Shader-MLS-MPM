@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://doagxfm18mqef"
+path="res://.godot/imported/compute_clear_texture.glsl-dfc4b461dd1bc09bf359d4aba03fce18.res"
+
+[deps]
+
+source_file="res://main_files/compute_clear_texture.glsl"
+dest_files=["res://.godot/imported/compute_clear_texture.glsl-dfc4b461dd1bc09bf359d4aba03fce18.res"]
+
+[params]
+
